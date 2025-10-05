@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanuma Reddy Sangam - Profile</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      animation: fadeIn 2s ease-in;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
+      animation: bounceIn 1.5s ease;
+    }
+
+    header h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      animation: slideUp 1.5s ease;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #fff;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.8rem 0;
+      font-size: 1.1rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔️";
+      position: absolute;
+      left: 0;
+    }
+
+    .contact a {
+      color: #ffeb3b;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact a:hover {
+      color: #fff176;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.2);
+      margin-top: 2rem;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes bounceIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      60% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/160" alt="Profile Photo">
+    <!-- Replace above link with your own photo later -->
+    <h1>Hanuma Reddy Sangam</h1>
+    <p>Associate Software Engineer | 1+ Years Experience</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am an experienced Associate Software Engineer with over 1 year of hands-on expertise 
+      at Attivo Technology Solutions. Skilled in Java and XML development, I have a proven 
+      ability to manage tasks efficiently, collaborate with teams, and solve complex problems. 
+      My technical knowledge combined with strong organizational and coordination skills 
+      allows me to adapt and succeed in diverse professional environments.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Java & XML Development</li>
+      <li>Problem Solving & Debugging</li>
+      <li>Task & Time Management</li>
+      <li>Team Collaboration & Communication</li>
+      <li>Adaptability & Quick Learning</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Attivo Technology Solutions</strong> – Associate Software Engineer  
+        <br>1+ Years Experience  
+        <br><em>Worked on Java/XML-based applications, supported team projects, and contributed to system improvements.</em>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hanumareddy173@gmail.com">hanumareddy173@gmail.com</a></p>
+    <p>Phone: (Your number here)</p>
+    <p>GitHub: <a href="https://github.com/" target="_blank">github.com/</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/" target="_blank">linkedin.com/</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Hanuma Reddy Sangam | Made with ❤️</p>
+  </footer>
+</body>
+</html>
